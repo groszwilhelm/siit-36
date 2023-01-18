@@ -73,3 +73,5 @@ In order to get documentation for a command we can use
 VS Code
 
 - Open Command palette (Pentru a executa comenzi in vs code)
+
+Hello this is a new change.
