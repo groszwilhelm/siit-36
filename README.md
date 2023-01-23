@@ -96,3 +96,9 @@ Git
 
 6. Undoing last commit (Be sure to check firs where the HEAD is placed in the commit chain, should be on the last commit)
 - git reset HEAD~1
+
+Linking local repository to online repository:
+- git remote add origin online_repository_url
+
+Synchronize changes from local to remote 
+- git push
