@@ -102,3 +102,6 @@ Linking local repository to online repository:
 
 Synchronize changes from local to remote 
 - git push
+
+In order to retrieve the latest changes from a git repository
+- git pull
