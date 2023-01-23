@@ -72,6 +72,27 @@ In order to get documentation for a command we can use
 
 VS Code
 
-- Open Command palette (Pentru a executa comenzi in vs code)
+- Open Command palette (Pentru a executa comenzi in vs code) F1 or shift + ctrl + p
 
-Hello this is a new change.
+Git
+
+1. Add changes from Work directory to Staging area
+- git add file_name
+- git add path_to_file/file_name
+- git add . (Adds every change to staging area)
+
+2. Storing changes in Git (Commit)
+- git commit -m"descriptive commit message about the changes"
+
+3. Checking the current status of the changes
+- git status
+
+4. Seeing a list of the commits on a branch
+- git log
+
+5. Reset changes from staging area
+- git reset (Resets all changes)
+- git reset file_name or file_path/filename (for a single change)
+
+6. Undoing last commit (Be sure to check firs where the HEAD is placed in the commit chain, should be on the last commit)
+- git reset HEAD~1
