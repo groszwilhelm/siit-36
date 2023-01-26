@@ -103,6 +103,26 @@ Linking local repository to online repository:
 Synchronize changes from local to remote 
 - git push
 
+In order to retrieve the latest changes from a git repository
+- git pull
+
+In order to create a new branch
+- git checkout -b branch_name
+- git switch -c branch_name
+
+In order to navigate (checkout) to an existing branch
+- git checkout branch_name
+- git switch branch_name
+
+In order to see all the branches (and also check the current branch that we're on)
+- git branch
+
+In order to delete a branch
+- git branch -D branch_name
+
+My name is Wili
+Hello world
+
 # Heading
 ## Heading
 ### Heading
@@ -111,7 +131,3 @@ Synchronize changes from local to remote
 | --- | ----------- | -- |
 | Header | Title | Hello world |
 | Paragraph | Text | siit 36 |
-
-HTML
-
-Hyper Text Markup Language 
