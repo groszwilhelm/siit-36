@@ -102,3 +102,16 @@ Linking local repository to online repository:
 
 Synchronize changes from local to remote 
 - git push
+
+# Heading
+## Heading
+### Heading
+
+| Syntax | Description | Title |
+| --- | ----------- | -- |
+| Header | Title | Hello world |
+| Paragraph | Text | siit 36 |
+
+HTML
+
+Hyper Text Markup Language 
