@@ -1,0 +1,44 @@
+ /* A css rule always has a selector (By: element name, attributes) */
+
+ * {
+  font-family: 'Roboto', sans-serif;
+ }
+
+ p {
+   color: red;
+   font-size: 12px;
+ }
+
+#p1, 
+#p3,
+.paragraph-blue {
+  color: blue;
+  font-size: 16px;
+}
+
+.border-red {
+  border: 5px red solid;
+}
+
+/* 
+  Targeting by:
+  - id
+  - class
+  - element name
+  - attribute selector
+*/
+
+/* Space means we have a descendant */
+/* .inline-list li {
+  display: inline;
+} */
+
+
+/* > means that we target only direct children */
+.inline-list > li {
+  display: inline;
+}
+
+[hello="world"] {
+  color: deeppink;
+}

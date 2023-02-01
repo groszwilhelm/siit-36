@@ -205,9 +205,11 @@
   <!-- 
       Forms
 
+      When sending info with GET we send them via -> Query String (Header)
+      When sending info with POST we send them via request Body (Request has header and body).
      -->
 
-  <form>
+  <form novalidate method="POST">
     <fieldset>
       <div>
         <label for="username">Username: </label>
@@ -238,7 +240,7 @@
         <p>Gender</p>
 
         <label for="m">M</label>
-        <input id="m" type="radio" name="gender" value="m" />
+        <input id="m" name="gender" value="m" />
 
         <label for="f">F</label>
         <input id="f" type="radio" name="gender" value="f" />
@@ -266,7 +268,7 @@
       <textarea></textarea>
 
     </fieldset>
-    <button disabled>Submit</button>
+    <button>Submit</button>
   </form>
 
 </body>
@@ -289,4 +291,13 @@
 
   Default layout algorithm: Flow layout
 
+  Request to a server
+  (CRUD Operations, Create, Read, Update, Delete);
+
+  Request methods:
+  - POST (Create)
+  - PUT (Update total)
+  - GET (Read)
+  - DELETE (Delete)
+  - PATCH (Update partial)
  -->
